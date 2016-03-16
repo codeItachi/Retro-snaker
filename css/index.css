@@ -27,24 +27,26 @@ img{
 }
 .box{
 	width: 100%;
+    
 }
+
 .container::before{
 	position: absolute;
 	height: 100%;
-	width: 1024px;
+	width: 2000px;
 	content: "";
 	background: url(../image/xingkong2.jpg);
-	background-size: 1024px 100%;
-	animation: before 500s linear infinite;
+	background-size: 2000px 100%;
+	animation: before 160s linear infinite;
 }
 .container::after{
 	position: absolute;
 	height: 100%;
-	width: 1024px;
+	width: 2000px;
 	content: "";
 	background: url(../image/xingkong2.jpg);
-	background-size: 1024px 100%;
-	animation: after 500s linear infinite;
+	background-size: 2000px 100%;
+	animation: after 160s linear infinite;
 }
 
 
@@ -83,13 +85,13 @@ img{
     }
 
     50% {
-        -webkit-transform: translate3d(-1024px, 0, 0);
-        transform: translate3d(-1024px, 0, 0)
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0)
     }
 
     50.001% {
-        -webkit-transform: translate3d(1024px, 0, 0);
-        transform: translate3d(1024px, 0, 0)
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0)
     }
 
     100% {
@@ -105,13 +107,13 @@ img{
     }
 
     50% {
-        -webkit-transform: translate3d(-1024px, 0, 0);
-        transform: translate3d(-1024px, 0, 0)
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0)
     }
 
     50.001% {
-        -webkit-transform: translate3d(1024px, 0, 0);
-        transform: translate3d(1024px, 0, 0)
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0)
     }
 
     100% {
@@ -122,8 +124,8 @@ img{
 
 @-webkit-keyframes after{
     0% {
-        -webkit-transform: translate3d(1024px, 0, 0);
-        transform: translate3d(1024px, 0, 0)
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0)
     }
 
     50% {
@@ -132,15 +134,15 @@ img{
     }
 
     100% {
-        -webkit-transform: translate3d(-1024px, 0, 0);
-        transform: translate3d(-1024px, 0, 0)
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0)
     }
 }
 
 @keyframes after{
     0% {
-        -webkit-transform: translate3d(1024px, 0, 0);
-        transform: translate3d(1024px, 0, 0)
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0)
     }
 
     50% {
@@ -149,7 +151,7 @@ img{
     }
 
     100% {
-        -webkit-transform: translate3d(-1024px, 0, 0);
-        transform: translate3d(-1024px, 0, 0)
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0)
     }
 }
